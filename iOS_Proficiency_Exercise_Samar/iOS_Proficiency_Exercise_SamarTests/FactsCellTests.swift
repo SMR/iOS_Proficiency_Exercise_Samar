@@ -21,7 +21,7 @@ class FactsCellTests: XCTestCase {
 
         // Initializing view of FactsViewController
         _ = viewController.view
-       // tableView = viewController.tableView
+        tableView = viewController.tableView
         dataSourceProvider = MockDataSource()
         tableView.dataSource = dataSourceProvider
         indexPath = IndexPath(row: 0, section: 0)

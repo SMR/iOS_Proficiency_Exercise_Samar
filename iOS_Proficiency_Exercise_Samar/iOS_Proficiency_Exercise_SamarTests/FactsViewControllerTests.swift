@@ -19,7 +19,7 @@ class FactsViewControllerTests: XCTestCase {
            // Initializing view of FactsViewController
            _ = viewController.view
 
-          // tableView = viewController.tableView
+           tableView = viewController.tableView
     }
 
     override func tearDownWithError() throws {
